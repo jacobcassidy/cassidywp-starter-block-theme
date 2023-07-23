@@ -2,7 +2,7 @@
 
 This is a starter theme for WordPress developers to create a custom Full-Site Editing Block Theme.
 
-You'll need familiarity with [WordPress Block theme development](https://developer.wordpress.org/themes/block-themes/) to get the most out of it.
+You'll need familiarity with [WordPress Block Theme development](https://developer.wordpress.org/themes/block-themes/) to get the most out of it.
 
 For those less familiar with Block Theme development, I provide links below to upgrade your WordPress development skills.
 
