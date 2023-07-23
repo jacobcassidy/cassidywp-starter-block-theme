@@ -3,6 +3,7 @@
   "version": 2,
   "settings": {
     "appearanceTools": false,
+    "useRootPaddingAwareAlignments": false,
     "blocks": {
       "core/button": {
         "border": {
@@ -69,8 +70,7 @@
       "lineHeight": false,
       "textDecoration": false,
       "textTransform": false
-    },
-    "useRootPaddingAwareAlignments": false
+    }
   },
   "styles": {},
   "customTemplates": [],
