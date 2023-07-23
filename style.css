@@ -1,11 +1,15 @@
 /*
 Theme Name: FSE Block Starter Theme
 Text Domain: starter-theme
-Version: 1.0
 Description: Custom WordPress Full-Site Editing Block Theme
 Author: Jacob Cassidy
 Author URI: https://jacobcassidy.com
 Requires at least: 6.2
+Requires PHP: 7.4 or greater
+Tested up to: 6.2
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /* You can find the theme's CSS at /wp-content/themes/<theme-name>/assets/css/main.css */
