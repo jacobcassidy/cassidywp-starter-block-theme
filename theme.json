@@ -70,7 +70,7 @@
       "textDecoration": false,
       "textTransform": false
     },
-    "useRootPaddingAwareAlignments": false
+    "useRootPaddingAwareAlignments": true
   },
   "styles": {},
   "customTemplates": [],
