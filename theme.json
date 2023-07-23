@@ -10,13 +10,13 @@
         }
       },
       "core/pullquote": {
-				"border": {
-					"color": false,
-					"radius": false,
-					"style": false,
-					"width": false
-				}
-			}
+        "border": {
+          "color": false,
+          "radius": false,
+          "style": false,
+          "width": false
+        }
+      }
     },
     "border": {
       "color": false,
