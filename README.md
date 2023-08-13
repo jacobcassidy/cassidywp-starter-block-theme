@@ -10,7 +10,7 @@ For those less familiar with Block Theme development, I provide links below to u
 
 In a nutshell, it's a native replacement for WordPress third-party page-builder plugins such as Elementor, Divi, Beaver Builder, and WPBakery. It was created by the core WP team to allow WordPress users to build a website with no-code and for WordPress to compete with the likes of Wix, Squarespace, and other no-code website-building platforms.
 
-The Full-Site Editor uses components called "Blocks" (think Legos) to create pages and reuseable design patterns (multiple blocks combined). It's very flexible in that it allows both no-code users and block developers to modify it for their uses.
+The Full-Site Editor uses components called "Blocks" (think Legos) to create pages and reusable design patterns (multiple blocks combined). It's very flexible in that it allows both no-code users and block developers to modify it for their uses.
 
 For an official explanation, read [WordPress's Full-Site Editing documentation](https://developer.wordpress.org/block-editor/getting-started/full-site-editing/).
 
