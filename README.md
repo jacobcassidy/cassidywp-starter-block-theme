@@ -20,9 +20,9 @@ Out-of-the-box, WordPress has a block library with dozens of core blocks (see th
 
 For this reason, brands often want to have a custom Block Theme developed with specific blocks and patterns options to match their brand styles.
 
-When developing a Block Theme (or plugin), there are two main types of customization you will make.
+When developing a Block Theme (or block plugin), there are two main types of customization you can make.
 
-1. Customizing an existing core block. You can modify an existing block with new or removed attributes, styles, and abilities.
+1. Customizing an existing core block. You can modify an existing block to include new or removed old attributes, styles, and abilities.
 
 2. You can create wholly new blocks for a specific need.
 
@@ -34,7 +34,7 @@ WordPress has traditionally been a PHP-based platform since its start, and while
 
 Since [React](https://react.dev/) is a JavaScript library, a Block Theme developer should have a strong foundation in JavaScript fundamentals. While expert JavaScript knowledge is not required to develop blocks, you should at least be familiar with variables, data types, string methods, loops, and conditionals to be able to get around well in React.
 
-React itself uses a paradigm of combining HTML and JavaScript together called `JSX`, which is used in WordPress's block development. Knowing the fundamentals of JavaScript and JSX will go a long ways in developing new blocks or modifying existing ones.
+React itself uses a paradigm of combining HTML and JavaScript called `JSX`, which is used in WordPress's block development. Knowing the fundamentals of JavaScript and JSX will go a long way in developing new blocks or modifying existing ones.
 
 The best place to learn modern React is from the [official React website](https://react.dev/learn). And the best reference resource for JavaScript is [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript). Both are free and provide fantastic documentation for developers.
 
