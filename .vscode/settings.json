@@ -1,0 +1,15 @@
+{
+	//--- START WORDPRESS CODING STANDARD ---
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"phpsab.standard": "WordPress",
+	"prettier.useTabs": true,
+	"[php]": {
+		"editor.defaultFormatter": "valeryanm.vscode-phpsab"
+	},
+	//--- END WORDPRESS CODING STANDARD ---
+	"search.exclude": {
+		"**.min.css": true,
+		"**.min.js": true
+	}
+}
