@@ -1,90 +1,86 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
 	"version": 3,
+	"blockTypes": [],
+	"customTemplates": [],
+	"description": "",
+	"patterns": [],
+
 	"settings": {
 		"appearanceTools": false,
-		"useRootPaddingAwareAlignments": false,
-		"blocks": {
-			"core/button": {
-				"border": {
-					"radius": false
-				}
-			},
-			"core/pullquote": {
-				"border": {
-					"color": false,
-					"radius": false,
-					"style": false,
-					"width": false
-				}
-			}
-		},
-		"border": {
-			"color": false,
-			"radius": false,
-			"style": false,
-			"width": false
-		},
-		"color": {
-			"background": false,
-			"custom": false,
-			"customDuotone": false,
-			"customGradient": false,
-			"defaultDuotone": false,
-			"defaultGradients": false,
-			"defaultPalette": false,
-			"link": false,
-			"text": false,
-			"duotone": [],
-			"gradients": [],
-			"palette": []
-		},
-		"dimensions": {
-			"minHeight": false
-		},
+		"background": {},
+		"blocks": {},
+		"border": {},
+		"color": {},
+		"custom": {},
+		"dimensions": {},
 		"layout": {
-			"contentSize": null,
-			"wideSize": null
+			"allowCustomContentAndWideSize": true,
+			"allowEditing": true
 		},
+		"lightbox": {},
+		"position": {},
 		"shadow": {
-			"defaultPresets": false,
+			"defaultPresets": true,
 			"presets": []
 		},
 		"spacing": {
 			"blockGap": null,
-			"customSpacingSize": false,
+			"customSpacingSize": true,
+			"defaultSpacingSizes": false,
 			"margin": false,
 			"padding": false,
-			"spacingScale": {},
-			"units": []
+			"spacingSizes": [],
+			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
 		},
 		"typography": {
-			"customFontSize": false,
-			"dropCap": false,
+			"customFontSize": true,
+			"defaultFontSizes": false,
+			"dropCap": true,
 			"fluid": false,
 			"fontFamilies": [],
 			"fontSizes": [],
-			"fontStyle": false,
-			"fontWeight": false,
-			"letterSpacing": false,
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
 			"lineHeight": false,
-			"textDecoration": false,
-			"textTransform": false
-		}
+			"textAlign": true,
+			"textColumns": false,
+			"textDecoration": true,
+			"textTransform": true,
+			"writingMode": false
+		},
+		"useRootPaddingAwareAlignments": true
 	},
-	"styles": {},
-	"customTemplates": [],
-	"patterns": [],
+
+	"slug": "",
+
+	"styles": {
+		"background": {},
+		"blocks": {},
+		"border": {},
+		"color": {},
+		"css": "",
+		"elements": {},
+		"filter": {},
+		"outline": {},
+		"shadow": {},
+		"spacing": {},
+		"typography": {}
+	},
+
 	"templateParts": [
 		{
-			"area": "footer",
-			"name": "footer",
-			"title": "Footer"
+			"name": "header",
+			"title": "Header",
+			"area": "header"
 		},
 		{
-			"area": "header",
-			"name": "header",
-			"title": "Header"
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
 		}
-	]
+	],
+
+	"title": ""
 }
