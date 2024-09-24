@@ -1,22 +1,35 @@
 {
-  "name": "cassidywp-starter-block-theme",
+	"name": "cassidywp-starter-block-theme",
+	"version": "1.0.0",
+	"description": "A starter WordPress Block Theme for Enterprise Development",
+	"author": "Jacob Cassidy",
+	"homepage": "https://cassidywp.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jacobcassidy/cassidywp-starter-block-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/jacobcassidy/cassidywp-starter-block-theme/issues"
+	},
 	"devDependencies": {
-		"@wordpress/prettier-config": "^4.4.0",
-		"@wordpress/scripts": "^28.4.0",
+		"@wordpress/scripts": "^30.0.2",
 		"copy-webpack-plugin": "^12.0.2",
-		"glob": "^10.3.10",
-		"path": "^0.12.7",
-		"prettier": "npm:wp-prettier@^3.0.3",
+		"glob": "^11.0.0",
 		"webpack-remove-empty-scripts": "^1.0.4"
 	},
 	"overrides": {
-		"puppeteer-core": "^22.13.1"
+		"lighthouse": "^12.2.1",
+		"sass-loader": "^16.0.2",
+		"sass": "^1.79.3"
 	},
 	"scripts": {
 		"start": "wp-scripts start",
 		"build": "wp-scripts build",
 		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
-		"lint:js": "wp-scripts lint-js"
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update"
 	}
 }
