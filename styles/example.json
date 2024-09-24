@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Variation A",
+	"slug": "variation-a",
+	"blockTypes": ["core/group", "core/columns", "core/media-text"],
+	"styles": {
+		"color": {
+			"background": "#eed8d3",
+			"text": "#201819"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "#201819"
+				}
+			}
+		},
+		"blocks": {
+			"core/group": {
+				"color": {
+					"background": "#825f58",
+					"text": "#eed8d3"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "#eed8d3"
+						}
+					}
+				}
+			}
+		}
+	}
+}
