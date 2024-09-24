@@ -1,0 +1,34 @@
+/**
+ * TYPOGRAPHY
+ */
+
+//-----------------------------------------------
+// TYPOGRAPHY: LINE HEIGHTS
+//-----------------------------------------------
+.has-tiny-font-size {
+	line-height: var(--wp--custom--line-height--tiny);
+}
+
+.has-small-font-size {
+	line-height: var(--wp--custom--line-height--small);
+}
+
+.has-medium-font-size {
+	line-height: var(--wp--custom--line-height--medium);
+}
+
+.has-large-font-size {
+	line-height: var(--wp--custom--line-height--large);
+}
+
+.has-x-large-font-size {
+	line-height: var(--wp--custom--line-height--x-large);
+}
+
+.has-xx-large-font-size {
+	line-height: var(--wp--custom--line-height--xx-large);
+}
+
+.has-xxx-large-font-size {
+	line-height: var(--wp--custom--line-height--xxx-large);
+}

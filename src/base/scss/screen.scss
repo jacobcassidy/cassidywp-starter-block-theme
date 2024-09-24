@@ -1,0 +1,23 @@
+/* CSS nesting does NOT get parsed correctly with the WordPress Core
+ * `add_editor_style()` function, so SCSS is used here for now.
+ */
+
+//------------------------
+// DEFAULTS
+//------------------------
+@import "defaults/custom-properties";
+@import "defaults/elements";
+@import "defaults/utility-classes";
+
+//------------------------
+// MODULES
+//------------------------
+@import "modules/animations";
+@import "modules/typography";
+
+//------------------------
+// SECTIONS
+//------------------------
+@import "sections/global";
+@import "sections/site-footer";
+@import "sections/site-header";
