@@ -22,6 +22,7 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\remove_core_blocks' ) ) :
 	function remove_core_blocks(): array {
 		$blocks = \WP_Block_Type_Registry::get_instance()->get_all_registered();
 
+		// Remove comments from the theme.
 		unset( $blocks['core/latest-comments'] );
 		unset( $blocks['core/comments'] );
 		unset( $blocks['core/post-comments-form'] );
