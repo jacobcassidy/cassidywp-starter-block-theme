@@ -36,17 +36,6 @@ function get_theme_assets( string $asset_type ): array {
 			array(
 				'file' => 'script.js',
 			),
-			array(
-				'file' => 'splide-config.js',
-			),
-			array(
-				'file' => 'wow.min.js',
-				'cat'  => 'library',
-			),
-			array(
-				'file' => 'splide.min.js',
-				'cat'  => 'library',
-			),
 		),
 	);
 
