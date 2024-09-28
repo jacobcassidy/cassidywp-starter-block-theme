@@ -23,8 +23,8 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\register_theme_assets' ) ) 
 	 */
 	function register_theme_assets(): void {
 		// Retrieve assets properties.
-		$theme_styles  = get_theme_assets( 'styles' );
-		$theme_scripts = get_theme_assets( 'scripts' );
+		$theme_styles  = get_theme_assets_config( 'styles' );
+		$theme_scripts = get_theme_assets_config( 'scripts' );
 
 		// Register theme stylesheets.
 		foreach ( $theme_styles as $style => $properties ) {
@@ -52,8 +52,8 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\register_editor_ui_assets' 
 	 */
 	function register_editor_ui_assets(): void {
 		// Retrieve assets properties.
-		$editor_ui_styles  = get_theme_assets( 'editor_ui_styles' );
-		$editor_ui_scripts = get_theme_assets( 'editor_ui_scripts' );
+		$editor_ui_styles  = get_theme_assets_config( 'editor_ui_styles' );
+		$editor_ui_scripts = get_theme_assets_config( 'editor_ui_scripts' );
 
 		// Register Editor UI stylesheets.
 		foreach ( $editor_ui_styles as $editor_ui_style => $properties ) {
@@ -80,7 +80,7 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\register_theme_block_patter
 	 * @return void
 	 */
 	function register_theme_block_pattern_categories(): void {
-		$block_pattern_categories = get_block_pattern_categories();
+		$block_pattern_categories = get_block_pattern_categories_config();
 
 		foreach ( $block_pattern_categories as $name => $properties ) {
 			register_block_pattern_category( $name, $properties );

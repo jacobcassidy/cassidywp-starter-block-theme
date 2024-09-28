@@ -23,8 +23,8 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\enqueue_theme_assets' ) ) :
 	 */
 	function enqueue_theme_assets(): void {
 		// Retrieve assets properties.
-		$theme_styles  = get_theme_assets( 'styles' );
-		$theme_scripts = get_theme_assets( 'scripts' );
+		$theme_styles  = get_theme_assets_config( 'styles' );
+		$theme_scripts = get_theme_assets_config( 'scripts' );
 
 		// Enqueue theme stylesheets.
 		foreach ( $theme_styles as $style => $properties ) {
@@ -52,8 +52,8 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\enqueue_editor_ui_assets' )
 	 */
 	function enqueue_editor_ui_assets(): void {
 		// Retrieve assets properties.
-		$editor_ui_styles  = get_theme_assets( 'editor_ui_styles' );
-		$editor_ui_scripts = get_theme_assets( 'editor_ui_scripts' );
+		$editor_ui_styles  = get_theme_assets_config( 'editor_ui_styles' );
+		$editor_ui_scripts = get_theme_assets_config( 'editor_ui_scripts' );
 
 		// Enqueue Editor UI stylesheets.
 		foreach ( $editor_ui_styles as $editor_ui_style => $properties ) {
@@ -80,7 +80,7 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\enqueue_editor_styles' ) ) 
 	 * @return void
 	 */
 	function enqueue_editor_styles(): void {
-		$editor_styles = get_editor_styles();
+		$editor_styles = get_editor_styles_config();
 
 		foreach ( $editor_styles as $editor_style => $properties ) {
 			add_editor_style( $properties['path'] );
@@ -102,7 +102,7 @@ if ( ! function_exists( 'CassidyWP\StarterBlockTheme\enqueue_block_styles' ) ) :
 	 * @return void
 	 */
 	function enqueue_block_styles(): void {
-		$block_styles = get_block_styles();
+		$block_styles = get_block_styles_config();
 
 		foreach ( $block_styles as $block_style => $properties ) {
 			$block_name = $properties['name'];

@@ -1,6 +1,6 @@
 <?php
 /**
- * Getter functions that retrieve properties for assets set in the config settings below
+ * Configuration functions to set assets properties
  *
  * @package CassidyWP\StarterBlockTheme\Functions
  * @version 1.0.0
@@ -10,7 +10,7 @@ declare( strict_types = 1 );
 namespace CassidyWP\StarterBlockTheme;
 
 /**
- * Retrieves theme assets properties
+ * Sets theme assets properties
  *
  * Configurable asset properties: `file|cat|handle|deps|(media|args)`.
  *
@@ -18,8 +18,8 @@ namespace CassidyWP\StarterBlockTheme;
  * @param string $asset_type The type of asset being retrieved: `style|script|editor_ui_style|editor_ui_script`.
  * @return array A list of assets properties.
  */
-function get_theme_assets( string $asset_type ): array {
-	// Theme stylesheet asset configuration settings: `file|handle|deps|media`.
+function get_theme_assets_config( string $asset_type ): array {
+	// Theme stylesheet assets configuration settings: `file|handle|deps|media`.
 	$styles_config = array(
 		'type'   => 'style',
 		'assets' => array(
@@ -67,14 +67,14 @@ function get_theme_assets( string $asset_type ): array {
 }
 
 /**
- * Retrieves editor stylesheets properties for `add_editor_style()`
+ * Sets editor stylesheets properties for `add_editor_style()`
  *
  * Configurable asset properties: `file`.
  *
  * @since 1.0.0
  * @return array A multidimensional array of editor stylesheet properties.
  */
-function get_editor_styles(): array {
+function get_editor_styles_config(): array {
 	$editor_styles_config = array(
 		array(
 			'file' => 'editor.css',
@@ -85,12 +85,12 @@ function get_editor_styles(): array {
 }
 
 /**
- * Retrieves block pattern categories properties
+ * Sets block pattern categories properties
  *
  * @since 1.0.0
  * @return array A multidimensional array of block pattern categories properties.
  */
-function get_block_pattern_categories(): array {
+function get_block_pattern_categories_config(): array {
 	return array(
 		'boxes'    => array(
 			'label'       => __( 'Boxes', 'cassidywp-starter-block-theme' ),
@@ -112,13 +112,13 @@ function get_block_pattern_categories(): array {
 }
 
 /**
- * Retrieves individual block stylesheets properties
+ * Sets individual block stylesheets properties
  *
  * Properties are auto-generated with `process_block_styles()`. Nothing to configure here.
  *
- * @since 2.0.7
+ * @since 1.0.0
  * @return array List of individual block stylesheet properties.
  */
-function get_block_styles(): array {
+function get_block_styles_config(): array {
 	return process_block_styles();
 }
