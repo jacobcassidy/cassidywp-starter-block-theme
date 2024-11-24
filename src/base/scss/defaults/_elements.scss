@@ -2,67 +2,67 @@
  * ELEMENTS
  */
 
- *,
- *::before,
- *::after {
-	 box-sizing: border-box;
- }
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
 
- html,
- html:focus-within {
-	 scroll-behavior: smooth;
- }
+html,
+html:focus-within {
+	scroll-behavior: smooth;
+}
 
- body {
-	 accent-color: var(--wp--preset--color--secondary);
-	 text-rendering: optimizespeed;
-	 -moz-osx-font-smoothing: grayscale;
-	 -webkit-font-smoothing: antialiased;
- }
+body {
+	accent-color: var(--wp--preset--color--secondary);
+	text-rendering: optimizespeed;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
 
- button,
- input,
- select,
- textarea {
-	 font: inherit;
- }
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
 
- img,
- picture {
-	 height: auto;
-	 max-width: 100%;
- }
+img,
+picture {
+	height: auto;
+	max-width: 100%;
+}
 
- button,
- input[type="button"],
- input[type="submit"] {
-	 appearance: none;
-	 cursor: pointer;
-	 margin: 0;
- }
+button,
+input[type="button"],
+input[type="submit"] {
+	appearance: none;
+	cursor: pointer;
+	margin: 0;
+}
 
- a,
- button,
- input:focus,
- input[type="button"],
- input[type="submit"],
- textarea:focus {
-	 transition: all 250ms ease-in-out;
- }
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="submit"],
+textarea:focus {
+	transition: all 250ms ease-in-out;
+}
 
- /* Remove all animations and transitions for those who prefer not to see them */
- @media (prefers-reduced-motion: reduce) {
-	 html,
-	 html:focus-within {
-		 scroll-behavior: auto;
-	 }
+/* Remove all animations and transitions for those who prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html,
+	html:focus-within {
+		scroll-behavior: auto;
+	}
 
-	 *,
-	 *::before,
-	 *::after {
-		 animation-duration: 0.01ms !important;
-		 animation-iteration-count: 1 !important;
-		 transition-duration: 0.01ms !important;
-		 scroll-behavior: auto !important;
-	 }
- }
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
