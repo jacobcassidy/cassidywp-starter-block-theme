@@ -5,19 +5,19 @@
 //------------------------
 // DEFAULTS
 //------------------------
-@import "defaults/custom-properties";
-@import "defaults/elements";
-@import "defaults/utility-classes";
+@use "defaults/custom-properties";
+@use "defaults/elements";
+@use "defaults/utility-classes";
 
 //------------------------
 // MODULES
 //------------------------
-@import "modules/animations";
-@import "modules/typography";
+@use "modules/animations";
+@use "modules/typography";
 
 //------------------------
 // SECTIONS
 //------------------------
-@import "sections/global";
-@import "sections/site-footer";
-@import "sections/site-header";
+@use "sections/global";
+@use "sections/site-footer";
+@use "sections/site-header";
