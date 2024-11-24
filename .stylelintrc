@@ -1,6 +1,6 @@
 {
 	"extends": [ "@wordpress/stylelint-config/scss-stylistic" ],
-	"ignoreFiles": [ "**/*.min.js", "**/*.min.css", "build/**" ],
+	"ignoreFiles": [ "**/*.min.js", "**/*.min.css", "build/**", "style.css" ],
 	"rules": {
 		"@stylistic/declaration-colon-newline-after": null,
 		"@stylistic/function-parentheses-space-inside": "never-single-line",
