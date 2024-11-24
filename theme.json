@@ -1,11 +1,6 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
-	"blockTypes": [],
-	"customTemplates": [],
-	"description": "A starting theme.json with all settings turned off.",
-	"patterns": [],
-
 	"settings": {
 		"appearanceTools": false,
 		"background": {},
@@ -86,9 +81,6 @@
 		},
 		"useRootPaddingAwareAlignments": false
 	},
-
-	"slug": "",
-
 	"styles": {
 		"background": {},
 		"blocks": {},
@@ -102,19 +94,18 @@
 		"spacing": {},
 		"typography": {}
 	},
-
+	"customTemplates": [],
 	"templateParts": [
 		{
+			"area": "header",
 			"name": "header",
-			"title": "Header",
-			"area": "header"
+			"title": "Header"
 		},
 		{
+			"area": "footer",
 			"name": "footer",
-			"title": "Footer",
-			"area": "footer"
+			"title": "Footer"
 		}
 	],
-
-	"title": "CassidyWP Theme (All Off)"
+	"patterns": []
 }
