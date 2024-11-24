@@ -96,9 +96,9 @@ function get_block_pattern_categories_config(): array {
 			'label'       => __( 'Boxes', 'cassidywp-starter-block-theme' ),
 			'description' => __( 'A collection of box patterns.', 'cassidywp-starter-block-theme' ),
 		),
-		'heros'    => array(
-			'label'       => __( 'Heros', 'cassidywp-starter-block-theme' ),
-			'description' => __( 'A collection of header heros patterns.', 'cassidywp-starter-block-theme' ),
+		'heroes'   => array(
+			'label'       => __( 'Heroes', 'cassidywp-starter-block-theme' ),
+			'description' => __( 'A collection of header heroes patterns.', 'cassidywp-starter-block-theme' ),
 		),
 		'pages'    => array(
 			'label'       => __( 'Pages', 'cassidywp-starter-block-theme' ),
